@@ -1,0 +1,2 @@
+X, Y=map(int, input().split())
+print((X % Y and not (Y % X) and 1) or (X % Y and not (Y % X) and 1) or 5)
