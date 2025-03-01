@@ -1,0 +1,4 @@
+nmbr=int(input())
+hour=nmbr//30
+minute=nmbr%30*2
+print(hour, minute)
