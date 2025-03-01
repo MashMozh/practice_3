@@ -1,0 +1,5 @@
+nmbr=int(input())
+hour=int(nmbr/3600)
+mnt=int(nmbr % 3600/60)
+sec=nmbr-3600*hour-60*mnt
+print(hour, 'часов', mnt, 'минут', sec, 'секунд')
