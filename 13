@@ -1,0 +1,8 @@
+from math import ceil
+line=int(input())
+column=int(input())
+number=int(input())
+page=ceil(number/125)
+clmn=ceil((number%125)/25)
+ln=180-25*5*(page-1)-(clmn-1)*25
+print('страница', page, 'столбец', clmn, 'строока', ln)
